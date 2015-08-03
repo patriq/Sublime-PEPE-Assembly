@@ -1,13 +1,19 @@
 Sublime-PEPE-Assembly
 =====================
 A [Sublime Text 2/3](http://www.sublimetext.com/) plugin for PEPE Assembly. Provides syntax highlighting.
+![2015-08-03_23-46-42](https://cloud.githubusercontent.com/assets/3120671/9049453/013b9172-3a3a-11e5-9fb7-027fc054dc4b.png)
+
+Features
+--------
+* Syntax highlighting according to PEPE's Manual.
+* Snippets for basic loop creation, push and pop helper and function creator.
 
 Requirements
 ------------
 * [Sublime Text 2/3](http://www.sublimetext.com/) or [TextMate](https://macromates.com/) (did not tested)
 * [git](https://git-scm.com/) installed and added to your system PATH
 
-Getting Started
+Installing
 ---------------
 
     cd your-sublime-text-config-folder/Packages/User
@@ -28,7 +34,7 @@ Some more info
 
 Resources
 ---------
-PEPE Manual: https://fenix.tecnico.ulisboa.pt/downloadFile/566729524643600/modulo-pepe.pdf
+PEPE's Manual: https://fenix.tecnico.ulisboa.pt/downloadFile/566729524643600/modulo-pepe.pdf
 
 Source-code
 -----------
