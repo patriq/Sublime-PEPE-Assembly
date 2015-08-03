@@ -1,0 +1,252 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: PEPE Assembly
+scopeName: source.asm
+fileTypes: [asm]
+uuid: 43f0a256-f035-4e3d-96ea-adebe5892a17
+
+patterns:
+# |=====================================================================================================================|
+# |====================================  Intrucoes aritemeticas  =======================================================|
+# |=====================================================================================================================|
+
+- comment: Tab for ADDitions
+  name: support.class.asm
+  match: '\b(ADD(C)*)\b'
+
+- comment: Tab for SUBtractions
+  name: support.class.asm
+  match: '\b(SUB(B)*)\b'
+
+- comment: Tab for CoMParisions
+  name: support.class.asm
+  match: '\b(CMP)\b'
+
+- comment: Tab for MULtiplications
+  name: support.class.asm
+  match: '\b(MUL)\b'
+
+- comment: Tab for DIVisions
+  name: support.class.asm
+  match: '\b(DIV)\b'
+
+- comment: Tab for MODulos
+  name: support.class.asm
+  match: '\b(MOD)\b'
+
+- comment: Tab for NEGations
+  name: support.class.asm
+  match: '\b(NEG)\b'
+
+
+# |=====================================================================================================================|
+# |====================================  Intrucoes de bit  =============================================================|
+# |=====================================================================================================================|
+
+- comment: Tab stops for AND
+  name: support.class.asm
+  match: '\b(AND)\b'
+
+- comment: Tab stops for OR
+  name: support.class.asm
+  match: '\b(OR)\b'
+
+- comment: Tab stops for NOT
+  name: support.class.asm
+  match: '\b(NOT)\b'
+
+- comment: Tab stops for XOR
+  name: support.class.asm
+  match: '\b(XOR)\b'
+
+- comment: Tab stops for TEST
+  name: support.class.asm
+  match: '\b(TEST)\b'
+
+- comment: Tab stops for BIT
+  name: support.class.asm
+  match: '\b(BIT)\b'
+
+- comment: Tab stops for SET
+  name: support.class.asm
+  match: '\b(SET)\b'
+
+- comment: Tab stops for EnableInterruptions
+  name: support.class.asm
+  match: '\b(EI[0-3]*)\b'
+
+- comment: Tab stops SETCarry
+  name: support.class.asm
+  match: '\b(SETC)\b'
+
+- comment: Tab stops for EnableDMA
+  name:  support.class.asm
+  match: '\b(EDMA)\b'
+
+- comment: Tab stops for CLR
+  name: support.class.asm
+  match: '\b(CLR)\b'
+
+- comment: Tab stops for DisableInterruptions
+  name: support.class.asm
+  match: '\b(DI[0-3]*)\b'
+
+- comment: Tab stops for CLeaRCarry
+  name: support.class.asm
+  match: '\b(CLRC)\b'
+
+- comment: Tab stops for DisableDMA
+  name: support.class.asm
+  match: '\b(DDMA)\b'
+
+- comment: Tab stops for CPL
+  name: support.class.asm
+  match: '\b(CPL)\b'
+
+- comment: Tab stops for ComPLementCarry
+  name: support.class.asm
+  match: '\b(CPLC)\b'
+
+- comment: Tab stops for SHifts
+  name: support.class.asm
+  match: '\b(SH((L|R)(A)*))\b'
+
+- comment: Tab stops for ROtations
+  name: support.class.asm
+  match: '\b(RO((L|R)(C)*))\b'
+
+# |=====================================================================================================================|
+# |==========================  Intrucoes de transferencia de dados  ====================================================|
+# |=====================================================================================================================|
+
+- comment: Tab stops for MOVes
+  name: support.class.asm
+  match: '\b(MOV(B|BS|P|L|)*)\b'
+
+- comment: Tab stops for SWAP
+  name: support.class.asm
+  match: '\b(SWAP)\b'
+
+- comment: Tab stops for PUSHes and POPs to the stack
+  name: support.class.asm
+  match: '\b(PUSH|POP)\b'
+
+# |=====================================================================================================================|
+# |=============================  Intrucoes de controlo de fluxo  ======================================================|
+# |=====================================================================================================================|
+
+- comment: Tab stops for Jumps
+  name: support.class.asm
+  match: '\b(J(Z|NZ|N|NN|P|NP|C|NC|V|NV|EQ|NE|LT|LE|GT|GE|A|AE|B|BE|MP))\b'
+
+- comment: Tab stops for CALLs and RETurns
+  name: support.class.asm
+  match: '\b((CALL|RET)(F)*)\b'
+
+- comment: Tab stops for SWE
+  name: support.class.asm
+  match: '\b(SWE)\b'
+
+- comment: Tab stops for RFE
+  name: support.class.asm
+  match: '\b(RFE)\b'
+
+- comment: Tab stops for NOP
+  name: support.class.asm
+  match: '\b(NOP)\b'
+
+# |=====================================================================================================================|
+# |=========================================== Registos  ===============================================================|
+# |=====================================================================================================================|
+
+- comment: Tab for PC
+  name: entity.name.function.asm
+  match: '\b(PC)\b'
+
+- comment: Tab stops for registrys
+  name: entity.name.function.asm
+  match: '\b(R[0-9]+)\b'
+
+# Try to add \b to end and beggining...
+- comment: Tab stops for memory acessment
+  name: keyword.operator.asm
+  match: '\[(R[0-9]+)\]'
+  captures:
+    '1' : {name: entity.name.function.asm}
+
+- comment: Tab for RL
+  name: entity.name.function.asm
+  match: '\b(RL)\b'
+
+- comment: Tab for SP
+  name: entity.name.function.asm
+  match: '\b(SP)\b'
+
+- comment: Tab for RE
+  name: entity.name.function.asm
+  match: '\b(RE)\b'
+
+- comment: Tab for BTE
+  name: entity.name.function.asm
+  match: '\b(BTE)\b'
+
+- comment: Tab for TEMP
+  name: entity.name.function.asm
+  match: '\b(BTE)\b'
+
+# |=====================================================================================================================|
+# |=========================================== Diretivas  ==============================================================|
+# |=====================================================================================================================|
+
+- comment: Tab for PLACE
+  name: entity.name.function.asm
+  match: '\b(PLACE)\b'
+
+- comment: Tab for EQU
+  name: entity.name.function.asm
+  match: '\b(EQU)\b'
+
+- comment: Tab for WORD
+  name: entity.name.function.asm
+  match: '\b(WORD)\b'
+
+- comment: Tab for STRING
+  name: entity.name.function.asm
+  match: '\b(STRING)\b'
+
+- comment: Tab for TABLE
+  name: entity.name.function.asm
+  match: '\b(TABLE)\b'
+
+# |=====================================================================================================================|
+# |=====================================  Definicao da linguagem  ======================================================|
+# |=====================================================================================================================|
+
+- comment: Tab stops comments
+  name: comment.line
+  match: '\;(.*)'
+
+- comment: Tab stops for binary numbers
+  name: constant.numeric.asm
+  match: '\b(([0-1]+)(b)*)\b'
+
+- comment: Tab stops for decimal numbers
+  name: constant.numeric.asm
+  match: '\b(([0-9]+)(d)*)\b'
+
+- comment: Tab stops for hexadecimal numbers
+  name: constant.numeric.asm
+  match: '\b(([0-9A-F]+)(H|h)*)\b'
+
+- comment: Tab stops for strings
+  name: string.quoted.double.asm
+  match: '\"(.*)\"'
+
+- comment: Tab stops for characters
+  name: string.quoted.single.asm
+  match: \'(.*)\'
+
+- comment: Tab stops labels
+  name: keyword.control.asm entity.name.tag
+  match: '([_a-zA-Z])([_0-9a-zA-Z]+):'
+...

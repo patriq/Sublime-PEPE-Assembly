@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:label}:
+	${0:;Anything}
+	RET
+]]></content>
+	<tabTrigger>func</tabTrigger>
+	<scope>source.asm</scope>
+	<!-- <description>Starts a "function".</description> -->
+</snippet>

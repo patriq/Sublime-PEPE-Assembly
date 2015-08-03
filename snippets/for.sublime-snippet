@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+PUSH 	R${1:1}
+MOV 	R$1, ${2:times}
+${3:label}:
+	${0:;Action}
+SUB  	R$1, ${4:step}
+JNZ 	$3
+POP 	R$1
+]]></content>
+	<tabTrigger>for</tabTrigger>
+	<scope>source.asm</scope>
+	<!-- <description>A for loop snippet.</description> -->
+</snippet>

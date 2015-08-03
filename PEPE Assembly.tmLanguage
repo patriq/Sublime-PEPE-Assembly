@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>asm</string>
+	</array>
+	<key>name</key>
+	<string>PEPE Assembly</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Tab for ADDitions</string>
+			<key>match</key>
+			<string>\b(ADD(C)*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for SUBtractions</string>
+			<key>match</key>
+			<string>\b(SUB(B)*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for CoMParisions</string>
+			<key>match</key>
+			<string>\b(CMP)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for MULtiplications</string>
+			<key>match</key>
+			<string>\b(MUL)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for DIVisions</string>
+			<key>match</key>
+			<string>\b(DIV)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for MODulos</string>
+			<key>match</key>
+			<string>\b(MOD)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for NEGations</string>
+			<key>match</key>
+			<string>\b(NEG)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for AND</string>
+			<key>match</key>
+			<string>\b(AND)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for OR</string>
+			<key>match</key>
+			<string>\b(OR)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for NOT</string>
+			<key>match</key>
+			<string>\b(NOT)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for XOR</string>
+			<key>match</key>
+			<string>\b(XOR)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for TEST</string>
+			<key>match</key>
+			<string>\b(TEST)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for BIT</string>
+			<key>match</key>
+			<string>\b(BIT)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for SET</string>
+			<key>match</key>
+			<string>\b(SET)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for EnableInterruptions</string>
+			<key>match</key>
+			<string>\b(EI[0-3]*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops SETCarry</string>
+			<key>match</key>
+			<string>\b(SETC)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for EnableDMA</string>
+			<key>match</key>
+			<string>\b(EDMA)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for CLR</string>
+			<key>match</key>
+			<string>\b(CLR)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for DisableInterruptions</string>
+			<key>match</key>
+			<string>\b(DI[0-3]*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for CLeaRCarry</string>
+			<key>match</key>
+			<string>\b(CLRC)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for DisableDMA</string>
+			<key>match</key>
+			<string>\b(DDMA)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for CPL</string>
+			<key>match</key>
+			<string>\b(CPL)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for ComPLementCarry</string>
+			<key>match</key>
+			<string>\b(CPLC)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for SHifts</string>
+			<key>match</key>
+			<string>\b(SH((L|R)(A)*))\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for ROtations</string>
+			<key>match</key>
+			<string>\b(RO((L|R)(C)*))\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for MOVes</string>
+			<key>match</key>
+			<string>\b(MOV(B|BS|P|L|)*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for SWAP</string>
+			<key>match</key>
+			<string>\b(SWAP)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for PUSHes and POPs to the stack</string>
+			<key>match</key>
+			<string>\b(PUSH|POP)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for Jumps</string>
+			<key>match</key>
+			<string>\b(J(Z|NZ|N|NN|P|NP|C|NC|V|NV|EQ|NE|LT|LE|GT|GE|A|AE|B|BE|MP))\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for CALLs and RETurns</string>
+			<key>match</key>
+			<string>\b((CALL|RET)(F)*)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for SWE</string>
+			<key>match</key>
+			<string>\b(SWE)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for RFE</string>
+			<key>match</key>
+			<string>\b(RFE)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for NOP</string>
+			<key>match</key>
+			<string>\b(NOP)\b</string>
+			<key>name</key>
+			<string>support.class.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for PC</string>
+			<key>match</key>
+			<string>\b(PC)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for registrys</string>
+			<key>match</key>
+			<string>\b(R[0-9]+)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function.asm</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Tab stops for memory acessment</string>
+			<key>match</key>
+			<string>\[(R[0-9]+)\]</string>
+			<key>name</key>
+			<string>keyword.operator.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for RL</string>
+			<key>match</key>
+			<string>\b(RL)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for SP</string>
+			<key>match</key>
+			<string>\b(SP)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for RE</string>
+			<key>match</key>
+			<string>\b(RE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for BTE</string>
+			<key>match</key>
+			<string>\b(BTE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for TEMP</string>
+			<key>match</key>
+			<string>\b(BTE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for PLACE</string>
+			<key>match</key>
+			<string>\b(PLACE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for EQU</string>
+			<key>match</key>
+			<string>\b(EQU)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for WORD</string>
+			<key>match</key>
+			<string>\b(WORD)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for STRING</string>
+			<key>match</key>
+			<string>\b(STRING)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab for TABLE</string>
+			<key>match</key>
+			<string>\b(TABLE)\b</string>
+			<key>name</key>
+			<string>entity.name.function.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops comments</string>
+			<key>match</key>
+			<string>\;(.*)</string>
+			<key>name</key>
+			<string>comment.line</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for binary numbers</string>
+			<key>match</key>
+			<string>\b(([0-1]+)(b)*)\b</string>
+			<key>name</key>
+			<string>constant.numeric.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for decimal numbers</string>
+			<key>match</key>
+			<string>\b(([0-9]+)(d)*)\b</string>
+			<key>name</key>
+			<string>constant.numeric.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for hexadecimal numbers</string>
+			<key>match</key>
+			<string>\b(([0-9A-F]+)(H|h)*)\b</string>
+			<key>name</key>
+			<string>constant.numeric.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for strings</string>
+			<key>match</key>
+			<string>\"(.*)\"</string>
+			<key>name</key>
+			<string>string.quoted.double.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops for characters</string>
+			<key>match</key>
+			<string>\'(.*)\'</string>
+			<key>name</key>
+			<string>string.quoted.single.asm</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tab stops labels</string>
+			<key>match</key>
+			<string>([_a-zA-Z])([_0-9a-zA-Z]+):</string>
+			<key>name</key>
+			<string>keyword.control.asm entity.name.tag</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.asm</string>
+	<key>uuid</key>
+	<string>43f0a256-f035-4e3d-96ea-adebe5892a17</string>
+</dict>
+</plist>

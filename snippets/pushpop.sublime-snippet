@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+PUSH 	R${1:1}
+${0:;Anything}
+POP 	R$1
+]]></content>
+	<tabTrigger>pp</tabTrigger>
+	<scope>source.asm</scope>
+	<!-- <description>A PUSH-POP Snippet.</description> -->
+</snippet>
