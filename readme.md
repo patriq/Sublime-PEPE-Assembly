@@ -40,3 +40,7 @@ PEPE's Manual: https://fenix.tecnico.ulisboa.pt/downloadFile/566729524643600/mod
 Source-code
 -----------
 https://github.com/patriqdesigns/Sublime-PEPE-Assembly
+
+License
+-------
+This project is licensed under the terms of the [MIT license](https://en.wikipedia.org/wiki/MIT_License). Please see [license.md](https://github.com/PatriqDesigns/Sublime-PEPE-Assembly/blob/master/license.md) for more information.
