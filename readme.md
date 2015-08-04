@@ -10,21 +10,22 @@ Features
 
 Requirements
 ------------
-* [Sublime Text 2/3](http://www.sublimetext.com/) or [TextMate](https://macromates.com/) (did not tested)
-* [git](https://git-scm.com/) installed and added to your system PATH
+* [Sublime Text 2/3](http://www.sublimetext.com/) on your computer.
+* [Package control](https://packagecontrol.io/installation) installed.
 
 Installing
 ---------------
-
-    cd your-sublime-text-config-folder/Packages/User
-    git clone https://github.com/PatriqDesigns/Sublime-PEPE-Assembly.git
-
+* Open [Sublime Text 2/3](http://www.sublimetext.com/)
+* `Ctrl+Shift+P`
+* Select `Package Control: Install Package`
+* Search for `PEPE Assembly`
+* Click enter and install
 
 How to Use
 ----------
 * Open [Sublime Text 2/3](http://www.sublimetext.com/)
 * `Ctrl+Shift+P`
-* Set Syntax: PEPE Assembly
+* Select `Set Syntax: PEPE Assembly`
 
 Some more info
 ------------------
